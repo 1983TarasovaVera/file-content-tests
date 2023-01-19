@@ -1,4 +1,4 @@
-package com.veraTarasova;
+package com.veraTarasova.tests;
 
 import com.codeborne.pdftest.PDF;
 import org.junit.jupiter.api.Assertions;

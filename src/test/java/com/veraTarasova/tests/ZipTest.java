@@ -1,4 +1,4 @@
-package com.veraTarasova;
+package com.veraTarasova.tests;
 
 import org.apache.poi.util.IOUtils;
 import org.junit.jupiter.api.Assertions;
