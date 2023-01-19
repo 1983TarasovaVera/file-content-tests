@@ -14,19 +14,8 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class SimpleFileDownloadTest {
 
-//    static final String PATH_TO_DWD = "downloads";
-//    @AfterAll
-//    static void releaseFiles() throws IOException {
-//        FileUtils.cleanDirectory(new File(PATH_TO_DWD));
-//    }
-
     @Test
     void simpleDownload() throws IOException {
-        //для скачивания файлов без href
-//        Configuration.proxyEnabled = true;
-//        Configuration.fileDownload = PROXY;
-        //для скачивания в папку отличную от build. После теста нужно эту папку очистить.
-//        Configuration.downloadsFolder = PATH_TO_DWD;
         open("https://github.com/junit-team/junit5/blob/main/README.md");
         File downloadedFile = $("#raw-url").download();
         String s;
