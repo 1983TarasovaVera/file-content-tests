@@ -1,4 +1,4 @@
-package com.veraTarasova;
+package com.veraTarasova.tests;
 
 import com.codeborne.pdftest.PDF;
 import org.junit.jupiter.api.Assertions;
@@ -19,8 +19,5 @@ public class PdfDownloadTest {
         File pdfDownload = $(byText("PDF download")).download();
         PDF parsedPdf = new PDF(pdfDownload);
         Assertions.assertTrue(new String(parsedPdf.text).contains("Table of Contents"));
-//        Assertions.assertThat(new String(parsedPdf.text).contains("Table of Contents");
-//        assertThat(parsedPdf).containsExactText("Table of Contents");
-//        assertThat(new String(parsedPdf.content).contains("Table of Contents"));
     }
 }
