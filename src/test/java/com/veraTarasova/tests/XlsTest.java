@@ -1,4 +1,4 @@
-package com.veraTarasova;
+package com.veraTarasova.tests;
 
 import com.codeborne.xlstest.XLS;
 import org.junit.jupiter.api.Assertions;

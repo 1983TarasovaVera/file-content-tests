@@ -1,4 +1,4 @@
-package com.veraTarasova;
+package com.veraTarasova.tests;
 
 import org.apache.poi.extractor.ExtractorFactory;
 import org.apache.poi.extractor.POITextExtractor;
